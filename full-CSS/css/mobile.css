@@ -1,0 +1,123 @@
+@media only screen and (max-width: 500px) {
+  .container {
+    max-width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  header {
+    height: 50px;
+  }
+  header .container .logo a {
+    font-size: 1.2em;
+  }
+  header .container nav {
+    display: none;
+  }
+  header .container .shopping {
+    width: 20%;
+  }
+  header .shopping .style-icon {
+    font-size: 15px;
+  }
+  header .shopping .itemCount {
+    top: -10px;
+    right: -10px;
+    height: 15px;
+    width: 15px;
+  }
+
+  /* slider */
+  slider .slider-container {
+    height: 200px;
+  }
+  slider .slider-container .slider img {
+    width: 100%;
+    height: auto;
+  }
+  slider .slider-container .slider span {
+    letter-spacing: 5px;
+  }
+  slider .slider-container .slider span h2 {
+    font-size: 0.7em;
+  }
+  /* bets sellers */
+  bestSeller .container {
+    margin-top: 10px;
+  }
+  bestSeller .container .item {
+    flex-wrap: wrap;
+  }
+  bestSeller .container .item li {
+    width: 48%;
+  }
+  bestSeller .container .item li:first-child {
+    width: 100%;
+  }
+  bestSeller .container .item li .describe {
+    margin-top: 0%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  shipping .shipping-container {
+    margin-top: 20px;
+  }
+
+  shipping .shipping-container ul li .shipping-icon {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  shipping .shipping-container ul li h3 {
+    font-size: 1em;
+}
+shipping .shipping-container ul li p {
+    font-size: 0.5em;
+}
+shipping .shipping-container {
+    height: 150px;
+}
+
+ /* Advertising */
+ Advertising .advertising-container{
+    height: 200px;
+    width: 100%;
+    overflow-x: scroll;
+}
+Advertising .advertising-container img{
+    margin-left: 25px;
+    margin-right: 25px;
+    max-width: 150px;
+    max-height: 150px;
+}
+products .caption {
+    height: 100px;
+}
+products .item li {
+    max-width: 48%;
+}
+infor .infor-container{
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+}
+
+infor .infor-container .brand img{ 
+    width: 20%;
+}
+
+/* footer  */
+footer {
+    height: auto;
+    flex-direction: column;
+}
+footer .coppyright p{
+    font-size: 0.7em;
+} 
+footer .card {
+    flex:1;
+    text-align: center;
+}
+footer .card img{
+  margin-left: 10px;
+  width: 7.5%;
+}
+}
