@@ -11,8 +11,36 @@
     font-size: 1.2em;
   }
   header .container nav {
+    width: 100%;
     display: none;
   }
+/* touch  */
+header .container .overlay{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(211, 211, 211, 68%);
+    overflow: hidden;
+    transition: 0.2ms;
+}
+header .container nav .menu{
+    width: 50%;
+    background-color: silver;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 50%;
+    padding-top: 30px;
+}
+header .container nav .menu li{
+padding-left: 10px;
+height: 50px;
+}
+
+/*  */
   header .container .shopping {
     width: 20%;
   }
